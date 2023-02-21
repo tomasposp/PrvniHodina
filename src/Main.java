@@ -1,12 +1,14 @@
+import Models.Zlomek;
 import org.w3c.dom.ls.LSOutput;
 
 import java.sql.SQLOutput;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Zlomek z1 = new Zlomek(5, 3);
+        Zlomek z2 = new Zlomek(8,5);
 
-    System.out.println("Hello 2");
+        System.out.println(z1.toString());
 
     }
 }
